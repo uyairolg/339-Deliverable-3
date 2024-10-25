@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
 
   h1 {
     color: #2c3e50;
@@ -176,80 +176,83 @@ h2 {
   animation: enlargeNumbers 3s ease-in-out 3;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  #athlete-sr-table table td {
-      animation: none;
-}} /* no animation for Prefers-Reduced Preference */
+@media (prefers-reduced-motion: reduce) { 
+  #athlete-sr-table table td.best-record{
+    animation: none;
+  }
+} /*stop animation for Prefers-Reduced Preference */
+  
 
 /* adjust user color scheme preference */
-@media (prefers-color-scheme: dark) {
-  body {
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212; 
+        color: #ffffff; 
+    }
+  
+    h1 {
+      color: #f0f0f0;
+    }
+  
+    tbody tr td a {
+      color: rgb(148, 205, 255);
+    }
+  
+    nav ul {
+      background-color: #333;
+    }
+  
+    nav ul li a {
+      color: rgb(148, 205, 255);
+    }
+  
+    a[href="#main"] {
+      background-color: #333;
+      color: rgb(148, 205, 255);
+    }
+  
+    header h1 {
+      top: 5px;
+      background-color: #333;
+      color: #ffffff;
+    }
+  
+    header {
+      background-color: #333;
+    }
+  
+    h2 {
+      color: #ffffff;
+    }
+  
+    img {
+      border-color: #ffffff;
+    }
+  
+    #athlete-sr-table table,
+    #athlete-result-table table {
       background-color: #121212; 
-      color: #ffffff; 
+      color: #e0e0e0;
+    }
+  
+    #athlete-sr-table table th,
+    #athlete-result-table table th {
+      background-color: #000000;
+    }
+  
+    #athlete-sr-table table tbody tr:nth-child(even),
+    #athlete-result-table table tbody tr:nth-child(even) {
+      background-color: #1e1e1e;
+    }
+  
+    #athlete-sr-table table tbody tr:nth-child(odd),
+    #athlete-result-table table tbody tr:nth-child(odd) {
+      background-color: #2a2a2a; 
+    }
+  
+    footer a {
+      color: rgb(148, 205, 255);
+    }
   }
 
-  h1{
-    color: #f0f0f0;
-  }
-
-  tbody tr td a {
-    color: rgb(148, 205, 255);
-  }
-
-  nav ul {
-    background-color: #333;
-}
-
-nav ul li a {
-  color: rgb(148, 205, 255);
-}
-
-  a[href="#main"] {
-    background-color: #333;
-    color: rgb(148, 205, 255);
-  }
-
-  header h1 {
-    top: 5px;
-    background-color: #333;
-    color: #ffffff;
-  }
-
-  header {
-    background-color: #333;
-  }
-
-  h2{
-    color: #ffffff;
-  }
-
-  img{
-    border-color: #ffffff;
-  }
-
-  #athlete-sr-table table,
-  #athlete-result-table table {
-    background-color: #121212; 
-    color: #e0e0e0;
-  }
-
-  #athlete-sr-table table th,
-  #athlete-result-table table th {
-    background-color: #000000;
-  }
-
-  #athlete-sr-table table tbody tr:nth-child(even),
-  #athlete-result-table table tbody tr:nth-child(even) {
-    background-color: #1e1e1e;
-  }
-
-  #athlete-sr-table table tbody tr:nth-child(odd),
-  #athlete-result-table table tbody tr:nth-child(odd) {
-    background-color: #2a2a2a; 
-  }
-
-  footer a {
-    color: rgb(148, 205, 255);
-  }
-}
-
+  

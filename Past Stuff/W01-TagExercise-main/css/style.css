@@ -1,0 +1,19 @@
+p{
+    color:rgba(109, 10, 112, 0.45);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(162, 209, 204);
+    line-height: 60px;
+    border:soild 10px black;
+    border-width: 3px 10px 20px 5px;
+    margin: auto;
+    height: 100px
+}
+
+h2{
+    background-color: aqua;
+    line-height: 100px;
+    align-content: center
+}
+
+*{
+    border: 10px solid
+}

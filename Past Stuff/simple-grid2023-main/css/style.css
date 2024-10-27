@@ -1,0 +1,75 @@
+/****** Let's style our h1 & h2 headings *******/
+
+h1,h2{
+
+/* 1. Make the text centered */
+text-align: center;
+/* 2. Give it a margin of 10px */
+margin: 10px;
+/* 3. Font size should be twice the normal size  */
+font-size: 200%;
+
+}
+
+
+
+
+  /******* style the grid container  *******/
+.grid{
+  /* 1. Give it a width of 800px */
+  width: 800px;
+  /* 2. Center it in the middle of the body */
+  margin: auto;
+  /* 3. Set the display to grid */
+  display:grid;
+  /* 4. Give it 3 columns of equal size (1fr each) */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* 5. Set a g rid gap of 10px */
+  column-gap: 10px;
+  /* 6. Add a background color of #91f321 */
+  background-color: #91f321;
+  /* 7. Give it a background image using the image in the images folder */
+  background-image: url("../images/background.jpg")
+  /* 8. Add a solid black 3px border */
+  border: 3px solid black;
+  /* 9. Round the corners */
+  
+}
+
+
+
+
+
+
+
+
+/******  Style the divs inside of the grid ******/
+.grid div{
+/* 1. Give them a 5px solid white border */
+border: 5px solid white;
+/* 2. Give them a background color of rgba(231, 157, 224, 0.5) */
+background-color: rgba(231, 157, 224, 0.5);
+/* 3.  Align the text in the boxes to the center;
+
+/* 4. Add 20px of padding */
+text-align: center;
+padding: 20px;
+/* 5. Set a font-size of 30px   */
+font-size: 30px
+}
+
+
+
+
+
+/* Go back to the parent container and play with ...*/
+    /*justify-content:; */
+	/* justify-items:;  */
+	/* align-items:; */
+	/* align-content:; */
+.item2,.item5{grid-column: 3/4}
+.item3{grid-column: 2}
+.item4{grid-column: 1;}
+
+/* Now try and style the individual boxes using grid-column  to match the picture at 1200px.*/
+

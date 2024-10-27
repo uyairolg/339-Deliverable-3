@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/meets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SI 339"
+	}
+}
